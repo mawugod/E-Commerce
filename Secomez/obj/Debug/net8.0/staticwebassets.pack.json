@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Secomez.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Secomez.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\addproduct.html",
+      "PackagePath": "staticwebassets\\addproduct.html"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\3.jpeg",
+      "PackagePath": "staticwebassets\\img\\3.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\BitDefender.png",
+      "PackagePath": "staticwebassets\\img\\BitDefender.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\Fortinet.png",
+      "PackagePath": "staticwebassets\\img\\Fortinet.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\Manageengine.png",
+      "PackagePath": "staticwebassets\\img\\Manageengine.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\McAfee.png",
+      "PackagePath": "staticwebassets\\img\\McAfee.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\Norton.png",
+      "PackagePath": "staticwebassets\\img\\Norton.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\Rapid7.png",
+      "PackagePath": "staticwebassets\\img\\Rapid7.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\Sentinel.png",
+      "PackagePath": "staticwebassets\\img\\Sentinel.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\Splunk.png",
+      "PackagePath": "staticwebassets\\img\\Splunk.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\TotalAV.png",
+      "PackagePath": "staticwebassets\\img\\TotalAV.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\a.jpg",
+      "PackagePath": "staticwebassets\\img\\a.jpg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\antivirus.jpg",
+      "PackagePath": "staticwebassets\\img\\antivirus.jpg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\antivirus1.jpg",
+      "PackagePath": "staticwebassets\\img\\antivirus1.jpg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\avast.png",
+      "PackagePath": "staticwebassets\\img\\avast.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\b.jpg",
+      "PackagePath": "staticwebassets\\img\\b.jpg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\ceo1.jpeg",
+      "PackagePath": "staticwebassets\\img\\ceo1.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\ceo2.jpeg",
+      "PackagePath": "staticwebassets\\img\\ceo2.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\ceo3.jpeg",
+      "PackagePath": "staticwebassets\\img\\ceo3.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\interface.jpeg",
+      "PackagePath": "staticwebassets\\img\\interface.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\log.png",
+      "PackagePath": "staticwebassets\\img\\log.png"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\logo.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\mission.jpeg",
+      "PackagePath": "staticwebassets\\img\\mission.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\mission1.jpeg",
+      "PackagePath": "staticwebassets\\img\\mission1.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\monitoring.jpeg",
+      "PackagePath": "staticwebassets\\img\\monitoring.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\siem2.jpg",
+      "PackagePath": "staticwebassets\\img\\siem2.jpg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\siem3.jpg",
+      "PackagePath": "staticwebassets\\img\\siem3.jpg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\slide1.jpeg",
+      "PackagePath": "staticwebassets\\img\\slide1.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\slide2.jpeg",
+      "PackagePath": "staticwebassets\\img\\slide2.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\slide3.jpeg",
+      "PackagePath": "staticwebassets\\img\\slide3.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\slides\\antivirus.jpg",
+      "PackagePath": "staticwebassets\\img\\slides\\antivirus.jpg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\slides\\slide.jpeg",
+      "PackagePath": "staticwebassets\\img\\slides\\slide.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\threat_intelligence.jpeg",
+      "PackagePath": "staticwebassets\\img\\threat_intelligence.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\img\\update.jpeg",
+      "PackagePath": "staticwebassets\\img\\update.jpeg"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\js\\Notify.js",
+      "PackagePath": "staticwebassets\\js\\Notify.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\js\\search.js",
+      "PackagePath": "staticwebassets\\js\\search.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\js\\slider.js",
+      "PackagePath": "staticwebassets\\js\\slider.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\uk\\NTU\\Internet Programming\\Coursework\\Internet Programming_N1228863_Dickson_Hodowu\\Secomez\\Secomez\\wwwroot\\product.html",
+      "PackagePath": "staticwebassets\\product.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Secomez.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Secomez.props",
+      "PackagePath": "build\\Secomez.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Secomez.props",
+      "PackagePath": "buildMultiTargeting\\Secomez.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Secomez.props",
+      "PackagePath": "buildTransitive\\Secomez.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

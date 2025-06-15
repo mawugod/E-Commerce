@@ -1,0 +1,53 @@
+﻿@page
+@model Secomez.Pages.CartModel
+
+<h2>Shopping Cart</h2>
+
+@if (Model._cart.Items.Count > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Sub Total</th>
+                <th class="align-content-center">Update Quantity</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model._cart.Items)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Product.Price</td>
+                    <td>@item.Quantity</td>
+                    <td><i class="bi bi-currency-pound"></i> @(item.Quantity * item.Product.Price)</td>
+                    <td>
+                        <form method="post" asp-page-handler="UpdateQuantity" asp-route-productId="@item.ProductId">
+                            <input type="number" name="newQuantity" value="@item.Quantity" min="1" />
+                            <button type="submit">Update</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form method="post" asp-page-handler="RemoveFromCart" asp-route-productId="@item.ProductId">
+                            <button type="submit">Remove</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <p><strong>Total Products in Cart:</strong> <i class="bi bi-currency-pound"></i> @Model._cart.Items.Sum(item => item.Quantity * item.Product.Price)</p>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}
+<span class="">
+    <a class="nav-link text-dark justify-content-end text-end link-secondary" asp-area="" asp-page="/Checkout">CheckOut</a>
+</span>
+<span class="">
+    <a class="nav-link text-dark justify-content-end link-secondary" asp-area="" asp-page="/ProductUsers">Return to Products</a>
+</span>

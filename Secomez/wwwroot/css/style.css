@@ -1,0 +1,95 @@
+﻿@CHARSET "ISO-8859-1";
+
+.flex-container {
+    display: flex;
+    background-color: slategray;
+}
+
+    .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+/* for the flex box image in the Product page */
+.card-img {
+    background-size: cover; /* or 'contain' based on your preference */
+    background-repeat: no-repeat;
+    height: 200px; /* Set an appropriate height */
+    width: 100%; /* Adjust width as needed */
+}
+
+.contain {
+    position: relative;
+    color: blue;
+}
+
+.quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color:brown;
+    
+    display: grid;
+    margin-top: 2em;
+    font-family: Georgia, " Times New Roman", serif;
+    font-size: 4em;
+}
+
+
+
+/*styling slider and slides classes */
+.slider {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+}
+
+.slid {
+    width: 90vw;
+    height: 75vh;
+}
+
+
+/*Making thead slider responsive*/
+@media (max-width: 768px) {
+    .slide {
+        height: 50vh;
+    }
+}
+
+
+.about-img {
+    width: 80vw;
+    height: 55vh;
+    display: flex;
+}
+.owner {
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+}
+
+.benefits-img {
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+

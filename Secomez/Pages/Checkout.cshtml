@@ -1,0 +1,19 @@
+﻿@page
+@model Secomez.Pages.CheckoutModel
+@{
+}
+
+<h2>Checkout</h2>
+
+<form method="post" asp-page-handler="PlaceOrder">
+    <!-- Include form fields for customer information, shipping details, etc. -->
+    <!-- Example: -->
+    <div class="form-group">
+        <label for="customerName">Customer Name:</label>
+        <input type="text" class="form-control" id="customerName" name="customerName" required />
+    </div>
+
+    <!-- Add more form fields as needed -->
+
+    <button type="submit" class="btn btn-primary">Place Order</button>
+</form>

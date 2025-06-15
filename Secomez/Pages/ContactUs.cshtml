@@ -1,0 +1,67 @@
+﻿@page
+@model Secomez.Pages.ContactUsModel
+@{
+    ViewData["Title"] = "Contact Us - Secomez";
+}
+
+
+<body class="bg-light">
+
+    <!-- Header Section -->
+    <header class="text-center bg-dark text-white p-4">
+        <h1 class="display-4">Contact Secomez Security Solutions</h1>
+        <p class="lead">We're Here to Assist You</p>
+    </header>
+
+    <!-- Contact Information Section -->
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Customer Support  <i class="bi bi-telephone-fill"></i></h2>
+                <p>For general inquiries and customer support, please reach out to our team:</p>
+                <p>Email: support@secomez.com</p>
+                <p>Phone: [+44] 9211010101</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Sales Department  <i class="bi bi-telephone-fill"></i></h2>
+                <p>Interested in our products? Contact our sales team:</p>
+                <p>Email: sales@secomez.com</p>
+                <p>Phone: [+44] 9211010101</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="container mt-4">
+        <h2 class="text-center mb-4">Get in Touch <i class="bi bi-mailbox"></i></h2>
+
+        <!-- Contact Form -->
+        <form method="post" class="row g-3">
+            <div class="col-md-6">
+                <label for="name" class="form-label">Your Name:</label>
+                <!-- Secured: Use asp-validation-for to display validation errors -->
+                <input type="text" class="form-control" id="name" name="name" asp-for="ContactModel.Name" required>
+                <span asp-validation-for="ContactModel.Name" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label for="email" class="form-label">Your Email:</label>
+                <!-- Secured: Use type="email" for email validation -->
+                <input type="email" class="form-control" id="email" name="email" asp-for="ContactModel.Email" required>
+                <span asp-validation-for="ContactModel.Email" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <label for="message" class="form-label">Your Message:</label>
+                <!-- Secured: Use asp-validation-for to display validation errors -->
+                <textarea class="form-control" id="message" name="message" asp-for="ContactModel.Message" rows="4" required></textarea>
+                <span asp-validation-for="ContactModel.Message" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
+    </section>
+ </body>
+

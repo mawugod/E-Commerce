@@ -1,0 +1,69 @@
+﻿@page
+@model Secomez.Pages.addProductModel
+@{
+    <partial name="_ValidationScriptsPartial" />
+}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h3 class="mb-0">Add Your Products</h3>
+                </div>
+
+                @* Display notification *@
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success m-3" role="alert">
+                        <strong>@TempData["SuccessMessage"]</strong>
+                    </div>
+                }
+
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.product.ProductImage" class="form-label">Product Image:</label>
+                            <input type="text" asp-for="@Model.product.ProductImage" class="form-control" required />
+                            <span asp-validation-for="@Model.product.ProductImage" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.product.Name" class="form-label">Name:</label>
+                            <input type="text" asp-for="@Model.product.Name" class="form-control" required />
+                            <span asp-validation-for="@Model.product.Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.product.Description" class="form-label">Description:</label>
+                            <textarea asp-for="@Model.product.Description" rows="4" class="form-control" required></textarea>
+                            <span asp-validation-for="@Model.product.Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.product.Price" class="form-label">Price:</label>
+                            <input type="number" asp-for="@Model.product.Price" step="0.01" min="0" class="form-control" required />
+                            <span asp-validation-for="@Model.product.Price" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.product.Category" class="form-label">Product Category:</label>
+                            <select asp-for="@Model.product.Category" class="form-select" required data-val-required="Please select a product category." data-val="true">
+                                <option value="">Select Product Category</option>
+                                <option value="Antivirus">Antivirus</option>
+                                <option value="SIEM Tool">SIEM Tool</option>
+                            </select>
+                            <span asp-validation-for="@Model.product.Category" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <span class="">
+        <a class="nav-link text-dark justify-content-end link-secondary" asp-area="" asp-page="/ProductUsers">Return to Products</a>
+    </span>
+</div>

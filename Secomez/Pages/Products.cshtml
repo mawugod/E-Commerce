@@ -1,0 +1,40 @@
+﻿@page
+@model Secomez.Pages.ProductsModel
+@{
+}
+
+<div class="d-flex flex-row">
+
+	@foreach (var product in Model.ProductList)
+	{
+			<div class="card">
+
+			<div class="card-img-top"> <img src="/img/@product.ProductImage" style="background:border-box;	 height:150px; width:45%"></div>
+			<div class="card-body">
+					<div>
+						<h5 class="card-title">@product.Name</h5>
+					</div>
+					<div>
+						<h5 class="card-title">@product.Price</h5>
+					</div>
+					<div>
+						<h5 class="card-title">@product.Description</h5>
+					</div>
+				<div>
+					<h5 class="card-title">@product.Category</h5>
+				</div>
+			</div>
+
+			
+			
+					<div class="card-body"><button class="card-title"><a asp-page="./DeleteProduct" asp-route-id="@product.Id">Delete</a></button></div>
+
+					<div class="card-body">
+				<button class="card-title"><a asp-page="/UpdateProduct"  asp-route-id="@product.Id">Update</a></button>
+			
+
+				</div> <span>&nbsp;</span>
+		</div>
+	}
+	
+</div>

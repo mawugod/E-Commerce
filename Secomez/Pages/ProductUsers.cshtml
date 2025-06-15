@@ -1,0 +1,87 @@
+﻿@page
+@model Secomez.Pages.ProductUsersModel
+@{
+}
+
+<div class="container">
+   <div class="row">
+		<div class="col-6 mb-3">
+
+			<input type="text" id="searchInput" class="form-control" placeholder="Search items...">
+		</div>
+		<div class="col-3 mb-3">
+			<button type="submit" class="btn btn-primary" onclick="searchItems()"><i class="bi bi-search"></i></button>
+		</div>
+	</div>
+</div>
+
+<div class="row" id="itemList">
+<div class="container">
+    @{
+        int productsPerRow = 4;
+        int productCount = 0;
+    }
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4" id="itemList">
+        @foreach (var product in Model.ProductList)
+        {
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="~/img/@product.ProductImage" class="card-img-top" alt="Product Image" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h6 class="card-title">Name: @product.Name</h6>
+                        <p class="card-text"><strong>Description:</strong> @product.Description</p>
+                        <p class="card-text"><strong>Price:</strong><i class="bi bi-currency-pound"></i>@product.Price</p>
+                        <p class="card-text"><strong>Category:</strong> @product.Category</p>
+                    </div>
+                    <div class="card-footer">
+                        <form method="post" asp-page-handler="AddToCart" asp-route-productId="@product.Id">
+                            <button type="submit" class="btn btn-primary btn-sm">Add To Cart</button>
+                        </form> &nbsp;
+                        <form method="post" asp-page-handler="RemoveFromCart" asp-route-productId="@product.Id">
+                            <button type="submit" class="btn btn-danger btn-sm">Remove from Cart</button>
+                        </form>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="mt-2">
+                                <button class="btn btn-info ml-2 btn-sm">
+                                    <a asp-page="/UpdateProduct" asp-route-id="@product.Id" class="text-white">Update</a>
+                                </button>&nbsp;
+                                <button class="btn btn-danger btn-sm">
+                                    <a asp-page="./DeleteProduct" asp-route-id="@product.Id" class="text-white">Delete Product</a>
+                                </button> 
+                                
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            productCount++;
+            if (productCount % productsPerRow == 0)
+            {
+                @:</div> <!-- Close the previous row -->
+                @:<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4"> <!-- Start a new row -->
+            }
+        }
+    </div> <!-- Close the last row if needed -->
+</div>
+</div>
+<!-- Bootstrap Pagination for Next and Previous -->
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-end">
+        <li class="page-item">
+            <a class="page-link" asp-page="./ProductUsers" asp-route-page="1" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" asp-page="./ProductUsers" asp-route-page="1">1</a></li>
+        <li class="page-item"><a class="page-link" asp-page="./ProductUsers" asp-route-page="2">2</a></li>
+        <li class="page-item"><a class="page-link" asp-page="./ProductUsers" asp-route-page="3">3</a></li>
+        <li class="page-item">
+            <a class="page-link" asp-page="./ProductUsers" asp-route-page="2" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>

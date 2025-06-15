@@ -1,0 +1,61 @@
+﻿@page
+@model Secomez.Pages.UpdateProductModel
+@using Secomez.Models
+@using Microsoft.AspNetCore.Mvc.RazorPages
+
+@{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+@{
+    ViewData["Title"] = "Update Product";
+}
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="container jumbotron col-sm-6">
+
+        <h2>Update Product</h2>
+
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="@Model.Id" />
+            <div class="form-group">
+                <div class="form-group">
+                    <label asp-for="@Model.ProductImage" class="control-label">Product Image</label>
+                    <input type="text" asp-for="@Model.ProductImage" class="form-control" />
+                    <span asp-validation-for="@Model.ProductImage" class="text-danger"></span>
+                </div><br />
+                <label asp-for="@Model.Name" class="control-label"></label>
+                <input type="text" asp-for="@Model.Name" class="form-control" />
+                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Description" class="control-label"></label>
+                <textarea asp-for="@Model.Description" class="form-control" ></textarea>
+                <span asp-validation-for="@Model.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Price" class="control-label"></label>
+                <input type="number" asp-for="@Model.Price" class="form-control" />
+                <span asp-validation-for="@Model.Price" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group mb-3">
+                <label asp-for="@Model.Category">Product Category:</label>
+                <select asp-for="@Model.Category" class="custom-select custom-select-sm" required data-val-required="Please select a product category." data-val="true">
+                    <option value="">Select Product Category</option>
+                    <option value="Antivirus">Antivirus</option>
+                    <option value="SIEM Tool">SIEM Tool</option>
+                </select>
+                <span asp-validation-for="@Model.Category" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+                <a asp-page="./ProductUsers" class="btn btn-secondary">Cancel</a>
+
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
